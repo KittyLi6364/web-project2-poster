@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600&display=swap');
+
+body {
+  background-color:black;
+  font-family: 'Hind', sans-serif;
+  margin:0;
+  color:white;
+}
+
+//
+// do all of your absolute positioning on the .phase elements:
+//
+
+.phase1{
+  position:absolute;
+  top:0;
+  left:0;
+
+}
+
+.phase2{
+  position:absolute;
+  top:0;
+  right:-150px;
+  
+}
+
+.phase3{
+  position:absolute;  
+  width:100%;
+  bottom:500px;
+  left:0;
+
+}
+
+.phase4{
+  position:absolute;
+  bottom:-150px;
+  right:-160px;
+
+}
+
+.phase3 img{
+  position:absolute;
+  top:0px;
+  width:100%;
+  z-index:-1; 
+}
+
+//
+// the contents of each .phase div should just use margins and padding
+//
+
+.yellow-bar{
+  position:absolute;
+  background:#FEE41A;
+  width:130px;
+  height:23px;
+}
+
+p{
+  font-weight:lighter;
+  font-size:10px;
+  margin:20px;
+  padding:0px;
+}
+
+h1{
+  letter-spacing:5px;
+  font-size:25px;
+  margin:20px;
+  padding:0px;
+}
+
+h2{
+  letter-spacing:8px;
+  font-size:38px;
+  transform:rotate(-90deg);
+  margin:40px;
+  padding:30px;
+}
+
+h3{
+  letter-spacing:8px;
+  font-size:30px;
+  margin:20px;
+  padding:0px;
+}
+
+h4{
+  letter-spacing:5px;
+  font-size:30px;
+  padding:100px;
+}
+
+h5{
+  font-weight:lighter;
+  font-size:13px;
+  transform: rotate(25deg);
+  padding:120px;
+  margin:60px;
+}
+
+@media (min-width:600px) {
+
+.phase3{
+  position:absolute;  
+  width:80%;
+  bottom:500px;
+  left:0;
+
+}
+  }
